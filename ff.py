@@ -709,7 +709,6 @@ def clone_dari_file():
 		print"\033[1;96m[!] \x1b[1;91mToken invalid"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
-		login()
 	try:
 		os.mkdir('out')
 	except OSError:
